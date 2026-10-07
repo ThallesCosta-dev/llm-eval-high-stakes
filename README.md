@@ -31,6 +31,17 @@ Costa, T. F. (2026). *Evaluating Large Language Models in High-Stakes Domains: c
 
 The Zenodo record archives release `v0.1.0` of this repository.
 
+## Releasing a new version
+
+Tag the commit, push the tag, and publish a new Zenodo version with the script in `tools/` (needs a Zenodo personal token in `ZENODO_TOKEN`):
+
+```bash
+git tag -a v0.2.0 -m "..." && git push --tags
+python tools/zenodo_new_version.py v0.2.0
+```
+
+The script archives the tag with `git archive`, opens a new version of the Zenodo record, replaces the file, sets the version and publishes; the concept DOI stays the same and a version DOI is minted.
+
 ## License
 
 MIT for code (see `LICENSE`). The de-identified data are released under CC BY 4.0.

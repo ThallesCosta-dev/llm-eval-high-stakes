@@ -1,0 +1,16 @@
+{
+  "title": "Evaluating Large Language Models in High-Stakes Domains: companion code, data and notebooks",
+  "upload_type": "software",
+  "description": "Code, simulated-data generators, de-identified study data (fifteen language models on fifteen transfusion-medicine vignettes, two administration conditions) and one notebook per chapter for the monograph 'Evaluating Large Language Models in High-Stakes Domains: A Gentle Introduction to Measurement, Uncertainty, and Reliability', a draft prepared for Foundations and Trends in Machine Learning.",
+  "creators": [
+    {
+      "name": "Costa, Thalles Ferreira",
+      "affiliation": "Oswaldo Cruz Institute (IOC/Fiocruz), Rio de Janeiro, Brazil",
+      "orcid": "0009-0000-3016-6640"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["large language models", "evaluation", "conformal prediction", "calibration", "prediction-powered inference", "clinical decision support", "uncertainty quantification"],
+  "access_right": "open",
+  "language": "eng"
+}

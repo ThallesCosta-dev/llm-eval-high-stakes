@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+type: software
+title: "Evaluating Large Language Models in High-Stakes Domains: companion code, data and notebooks"
+authors:
+  - family-names: Costa
+    given-names: Thalles Ferreira
+    orcid: "https://orcid.org/0009-0000-3016-6640"
+    affiliation: "Oswaldo Cruz Institute (IOC/Fiocruz), Rio de Janeiro, Brazil"
+version: "0.1.0"
+date-released: "2026-10-07"
+repository-code: "https://github.com/ThallesCosta-dev/llm-eval-high-stakes"
+license: MIT
+keywords:
+  - large language models
+  - evaluation
+  - conformal prediction
+  - calibration
+  - prediction-powered inference
+  - clinical decision support
+abstract: "Code, simulated-data generators, de-identified study data and one notebook per chapter for the monograph 'Evaluating Large Language Models in High-Stakes Domains: A Gentle Introduction to Measurement, Uncertainty, and Reliability' (draft prepared for Foundations and Trends in Machine Learning)."

@@ -10,6 +10,10 @@ authors:
 version: "0.1.0"
 date-released: "2026-10-07"
 repository-code: "https://github.com/ThallesCosta-dev/llm-eval-high-stakes"
+doi: 10.5281/zenodo.23216193
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23216193
 license: MIT
 keywords:
   - large language models

@@ -27,7 +27,9 @@ All simulations are seeded; the numbers in the monograph are those in `figures/r
 
 ## Citation
 
-A Zenodo DOI will be minted for the version submitted. Until then cite the repository URL and commit hash.
+Costa, T. F. (2026). *Evaluating Large Language Models in High-Stakes Domains: companion code, data and notebooks* (v0.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23216193
+
+The Zenodo record archives release `v0.1.0` of this repository.
 
 ## License
 

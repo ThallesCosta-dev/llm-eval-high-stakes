@@ -12,5 +12,7 @@
   "license": "MIT",
   "keywords": ["large language models", "evaluation", "conformal prediction", "calibration", "prediction-powered inference", "clinical decision support", "uncertainty quantification"],
   "access_right": "open",
+  "version": "0.1.0",
+  "related_identifiers": [{"identifier": "https://github.com/ThallesCosta-dev/llm-eval-high-stakes", "relation": "isSupplementTo", "scheme": "url"}],
   "language": "eng"
 }

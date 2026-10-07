@@ -1,3 +1,4 @@
 figures_out/
 __pycache__/
 .ipynb_checkpoints/
+data/model_mapping_PRIVATE.csv

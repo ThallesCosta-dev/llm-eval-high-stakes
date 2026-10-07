@@ -395,7 +395,7 @@ ax[1].errorbar([100*pert[m]["flip"] for m in labels], [0, 1], xerr=[[100*(pert[m
 ax[1].errorbar([100*pert[m]["change"] for m in labels], [0.25, 1.25], xerr=[100*1.96*pert[m]["change_se"] for m in labels],
                fmt="s", color=C1, ecolor=C1, capsize=3, ms=6, lw=1.5, label="mean change in accuracy (points)")
 ax[1].axvline(0, color=INK2, ls="--", lw=1); ax[1].set_yticks([0.1, 1.1]); ax[1].set_yticklabels(labels); ax[1].invert_yaxis()
-ax[1].set_xlabel("Under paraphrase perturbation"); ax[1].legend(fontsize=7, loc="upper right"); ax[1].set_xlim(-12, 36)
+ax[1].set_xlabel("Under paraphrase perturbation"); ax[1].legend(fontsize=7, loc="center right"); ax[1].set_xlim(-12, 36)
 ax[1].set_title("(b) Robustness: flips vs. mean change", loc="left", fontsize=9, color=INK)
 fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig6_severity_robustness.png")); plt.close(fig)
 
